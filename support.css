@@ -91,3 +91,9 @@
     border-radius: 5px;
     text-align: left;
 }
+.faq-item h4 {
+    font-size: 1.2rem;
+    color: #000; /* Changed to black */
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
