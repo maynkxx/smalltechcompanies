@@ -1,1 +1,258 @@
-!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartGadget - Drone Product</title>
+    <!-- Font Awesome for Cart Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        /* Global Styles */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f7;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: black;
+            border-bottom: 1px solid #d2d2d7;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            font-weight: 600;
+            color: white;
+        }
+
+        /* Cart Button Styles */
+        .cart-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #1d1d1f;
+            color: white;
+            font-size: 1.2rem;
+            padding: 0.75rem 1.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .cart-btn:hover {
+            background-color: rgb(13, 141, 239);
+        }
+
+        .cart-btn i {
+            margin-right: 8px;
+        }
+
+        /* Main Product Section */
+        .product-section {
+            background-image:url(/img123.png); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 850px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            width: 100%;
+        }
+
+        .product-section h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        /* Product Details Section - Full Width */
+        .product-details {
+            padding: 3rem 2rem;
+            background-color: #fff;
+            margin-top: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .product-details h3 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .product-details p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #555;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .product-details .features {
+            font-size: 1.1rem;
+            color: #333;
+            margin-bottom: 2rem;
+        }
+
+        .product-details .features li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        .product-details .price {
+            font-size: 1.7rem;
+            font-weight: 700;
+            color: black;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Button Styles */
+        .btn {
+            padding: 12px 25px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .add-to-cart {
+            background-color: #28a745;
+            color: white;
+            margin-right: 15px;
+        }
+
+        .add-to-cart:hover {
+            background-color: #218838;
+            transform: scale(1.05);
+        }
+
+        .move-to-cart {
+            background-color: #000000;
+            color: white;
+        }
+
+        .move-to-cart:hover {
+            background-color: black;
+            transform: scale(1.05);
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            border-top: 1px solid #d2d2d7;
+            background-color: #f5f5f7;
+            font-size: 0.9rem;
+            color: #86868b;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Drone-Alpha</h1>
+        <!-- Cart Button -->
+        <a href="index.html" class="cart-btn">
+             HOME
+        </a>
+    </header>
+
+    <main>
+    <!-- Product Section with Background Image -->
+        <div class="product-section">
+            <h2></h2> <!-- Product Name -->
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <h3>Drone-Alpha - Premium Aerial Innovation</h3>
+            <p>Designed for professionals and hobbyists alike, the Drone X Pro is the pinnacle of aerial technology. Its innovative design and advanced features allow you to capture breathtaking aerial shots, while its intelligent flight systems ensure seamless operation even in challenging environments.</p>
+
+            <ul class="features">
+                <li><strong>4K Ultra HD Camera:</strong> Capture stunning, high-definition aerial footage.</li>
+                <li><strong>Advanced GPS Tracking:</strong> Enhanced navigation for precise flight paths and location awareness.</li>
+                <li><strong>Smart Stabilization:</strong> Stay steady even in high winds with advanced stabilization technology.</li>
+                <li><strong>Intelligent Battery Management:</strong> Fly up to 25 minutes on a single charge with intelligent battery monitoring.</li>
+                <li><strong>Easy-to-use Interface:</strong> A user-friendly app with intuitive controls for all skill levels.</li>
+            </ul>
+
+            <p class="price">$499.99</p>
+
+            <!-- Action Buttons -->
+            <div style="text-align: center;">
+                <button class="btn move-to-cart">Buy</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    <div style="background-color: black; color: white; padding: 2rem 1rem;">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-around; text-align: center; gap: 2rem;">
+
+            <!-- About Section -->
+            <div>
+                <h4>About Us</h4>
+                <p>SmartGadget is committed to providing cutting-edge technology products that make life easier and more exciting. Explore our wide range of innovative gadgets and solutions.</p>
+            </div>
+
+            <!-- Contact Section -->
+            <div>
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:support@smartgadget.com" style="color: #ff9e00;">support@smartgadget.com</a></p>
+                <p>Phone: <a href="tel:+1234567890" style="color: #ff9e00;">+1 (234) 567-890</a></p>
+                <p>Address: 123 Tech Avenue, Silicon City, CA</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h4>Quick Links</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="pdt1.html" style="color: #ff9e00; text-decoration: none;">Drone-Alpha</a></li>
+                    <li><a href="pdt2.html" style="color: #ff9e00; text-decoration: none;">Drone-X</a></li>
+                    <li><a href="pdt3.html" style="color: #ff9e00; text-decoration: none;">Drone-Z</a></li>
+                    <li><a href="Who.html" style="color: #ff9e00; text-decoration: none;">Who are WE</a></li>
+                    <li><a href="support.html" style="color: #ff9e00; text-decoration: none;">Support</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media Section -->
+            <div>
+                <h4>Follow Us</h4>
+                <div style="font-size: 1.5rem;">
+                    <a href="#" style="color: #ff9e00; margin: 0 10px;"><i class="fab fa-facebook"></i></a>
+                    <a href="#" style="color: #ff9e00; margin: 0 10px;"><i class="fab fa-twitter"></i></a>
+                    <a href="#" style="color: #ff9e00; margin: 0 10px;"><i class="fab fa-instagram"></i></a>
+                    <a href="#" style="color: #ff9e00; margin: 0 10px;"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <p style="margin-top: 1.5rem; font-size: 0.9rem;">&copy; 2024 SmartGadget. All rights reserved. | <a href="terms.html" style="color: #ff9e00; text-decoration: none;">Terms of Service</a> | <a href="privacy.html" style="color: #ff9e00; text-decoration: none;">Privacy Policy</a></p>
+    </div>
+</footer>
+
+    
+    
+
+</body>
+
+</html>
