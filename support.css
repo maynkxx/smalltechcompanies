@@ -83,3 +83,11 @@
     color: #000; /* Changed to black */
     margin-bottom: 1em;
 }
+.faq-item {
+    background: #f9f9f9;
+    border-left: 4px solid #000; /* Changed to black */
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    text-align: left;
+}
