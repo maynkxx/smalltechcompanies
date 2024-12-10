@@ -1,1 +1,1 @@
-happy diwali
+happy holi
