@@ -39,3 +39,9 @@
     color: #000; /* Changed to black */
     margin-bottom: 1em;
 }
+.contact-form label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 0.5em;
+    display: block;
+}
