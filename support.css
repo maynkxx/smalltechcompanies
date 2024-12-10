@@ -97,3 +97,26 @@
     margin-bottom: 0.5em;
     font-weight: bold;
 }
+.faq-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+.support-info {
+    background: #f4f8fb;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.support-info h3 {
+    font-size: 1.8rem;
+    color: #000; /* Changed to black */
+    margin-bottom: 0.5em;
+}
+
+.support-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+}
+
