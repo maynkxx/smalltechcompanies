@@ -55,3 +55,9 @@
     font-size: 1rem;
     transition: border-color 0.3s ease-in-out;
 }
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #000; /* Changed to black */
+    outline: none;
+}
+
