@@ -1,1 +1,16 @@
+.support {
+    background: linear-gradient(135deg, #f9f9f9, #eaf3fc);
+    padding: 4em 1rem;
+    color: #333;
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+}
 
+.support .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
