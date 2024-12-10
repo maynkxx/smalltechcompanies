@@ -74,4 +74,12 @@
     background: #333; /* Slightly darker black */
     transform: translateY(-2px);
 }
+.faq {
+    margin-bottom: 3em;
+}
 
+.faq h3 {
+    font-size: 2rem;
+    color: #000; /* Changed to black */
+    margin-bottom: 1em;
+}
