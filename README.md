@@ -1,5 +1,1 @@
-mndd
-g
-d
-dmjbd
-dmd
+nn
